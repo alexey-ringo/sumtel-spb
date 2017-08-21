@@ -5,6 +5,7 @@
         <!-- /.website title -->
         <title>Sumtel Landing Page</title>
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+        <meta charset="utf-8">
 
         <!-- CSS Files -->
         <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
@@ -43,25 +44,25 @@
 
                             <!-- /.main title -->
                             <h2 class="wow fadeInLeft main-title1">
-                                <?= get_field('action_title_1') ?>
+                                АКЦИЯ!
                             </h2>
 
                             <!-- /.header paragraph -->
                             <div class="landing-text wow fadeInUp">
-                                <h1><?= get_field('action_title_2') ?></h1>
+                                <h1>"Специальный" ДОМАШНИЙ ИНТЕРНЕТ 195 РУБ/МЕС</h1>
                             </div>				  
 
                             <!-- /.header button -->
                             <div class="head-btn clearfix wow fadeInLeft">
 							
                                 
-								<a href="#download" class="btn-primary div-ref"><span><?= get_field('default_header_button_1') ?></span></a>
+								<a href="#download" class="btn-primary div-ref"><span>Подключить</span></a>
 								
 								
-                                <a href="#intro" class="btn-default div-ref"><span><?= get_field('header_button_2') ?></span></a>
+                                <a href="#intro" class="btn-default div-ref"><span>Узнать подробности</span></a>
 								
 								
-								<!-- <a href="#contact" class="btn-default div-ref"><span><?= get_field('header_button_3') ?></span></a> -->
+								<!-- <a href="#contact" class="btn-default div-ref"><span>Не используется</span></a> -->
 								
 								
                             </div>
@@ -125,12 +126,12 @@
 
                     <div id="navbar-scroll" class="collapse navbar-collapse navbar-backyard navbar-right">
                         <ul class="nav navbar-nav">
-                            <li><a href="#intro"><?= get_field('main_menu_1') ?></a></li>
-                            <li><a href="#feature"><?= get_field('main_menu_2') ?></a></li>
-                            <li><a href="#download"><?= get_field('main_menu_3') ?></a></li>
-                            <li><a href="#package"><?= get_field('main_menu_4') ?></a></li>
-                            <!-- <li><a href="#testi"><?= get_field('main_menu_5') ?></a></li> -->
-                            <li><a href="#contact"><?= get_field('main_menu_6') ?></a></li>
+                            <li><a href="#intro">Подробности</a></li>
+                            <li><a href="#feature">О нас</a></li>
+                            <li><a href="#download">Подключить</a></li>
+                            <li><a href="#package">Услуги</a></li>
+                            <!-- <li><a href="#testi">Пункт меню выключен</a></li> -->
+                            <li><a href="#contact">Обратная связь</a></li>
                         </ul>
                     </div>
                 </div>
@@ -144,18 +145,21 @@
 
                     <!-- /.intro image -->
                     <div class="col-md-6 intro-pic wow slideInLeft">
-                        <img src="<?= get_field('img_tariff_description') ?>" alt="image" class="img-responsive">
+                        <img src="images/intro-image.jpg" alt="image" class="img-responsive">
                     </div>	
 
                     <!-- /.intro content -->
                     <div class="col-md-6 wow slideInRight">
-                        <h2><?= get_field('tariff_title') ?></h2>
+                        <h2>Тариф "Специальный"</h2>
                         <ul>
-							<li><span><?= get_field('tariff_inf_1') ?></span></li>
-							<li><span><?= get_field('tariff_inf_2') ?></span></li>
-							<li><span><?= get_field('tariff_inf_3') ?></span></li>
-							<li><span><?= get_field('tariff_inf_4') ?></span></li>
-							<li><span><?= get_field('tariff_inf_5') ?></span></li>
+							<li><span>Скорость передачи данных - до 100 Мбит/с (с 2:00 до 15:00)</span></li>
+							<li><span>Оставить заявку на подключение можно на сайте<br>
+							или по телефону + 7(812) 403-01-03, пароль "Специальный"</span></li>
+							<li><span>Срок действия тарифного плана - 5 месяцев с момента подключения,<br>
+							после абонент переводится на тарифный план "Легче" (480 руб/мес)</span></li>
+							<li><span>Для подключения на тарифный план "Специальный" на лицевом счету<br>
+							должна быть сумма равная или более 1000 руб</span></li>
+							<li><span>Только для новых абонентов</span></li>
 						</ul>
 
                         <div class="btn-section"><a href="#download" class="btn-default"><span>Подключить</span></a></div>
@@ -172,7 +176,7 @@
                     <div class="col-md-10 col-md-offset-1 col-sm-12 text-center feature-title">
 
                         <!-- /.feature title -->
-                        <h2><?= get_field('our_features_main_title') ?></h2>
+                        <h2>Почему клиенты выбирают Sumtel?</h2>
                         
                     </div>
                 </div>
@@ -191,8 +195,8 @@
                         <div class="col-sm-6 feat-list">
                             <i class="pe-7s-like2 pe-5x pe-va wow fadeInUp"></i>
                             <div class="inner">
-                                <h4><?= get_field('our_feature_1') ?></h4>
-                                <p><?= get_field('feature1_describe') ?></p>
+                                <h4>Надежный провайдер</h4>
+                                <p>бла-бла-бла</p>
                             </div>
                         </div>
 
@@ -200,8 +204,8 @@
                         <div class="col-sm-6 feat-list">
                             <i class="pe-7s-rocket pe-5x pe-va wow fadeInUp" data-wow-delay="0.2s"></i>
                             <div class="inner">
-                                <h4><?= get_field('our_feature_2') ?></h4>
-                                <p><?= get_field('feature2_describe') ?></p>
+                                <h4>Быстрый интернет</h4>
+                                <p>бла-бла-бла-2</p>
                             </div>
                         </div>
 
@@ -209,8 +213,8 @@
                         <div class="col-sm-6 feat-list">
                             <i class="pe-7s-tools pe-5x pe-va wow fadeInUp" data-wow-delay="0.4s"></i>
                             <div class="inner">
-                                <h4><?= get_field('our_feature_3') ?></h4>
-                                <p><?= get_field('feature3_describe') ?></p>
+                                <h4>Служба поддержки 24/7</h4>
+                                <p>бла-бла-бла-3</p>
                             </div>
                         </div>
 
@@ -218,8 +222,8 @@
                         <div class="col-sm-6 feat-list">
                             <i class="pe-7s-cash pe-5x pe-va wow fadeInUp" data-wow-delay="0.6s"></i>
                             <div class="inner">
-                                <h4><?= get_field('our_feature_4') ?></h4>
-                                <p><?= get_field('feature4_describe') ?></p>
+                                <h4>Выгодные тарифы</h4>
+                                <p>бла-бла-бла-4</p>
                             </div>
                         </div>
                     </div>
@@ -258,13 +262,13 @@
                 <div class="overlay">
                     <div class="container">
                         <div class="col-md-8 col-md-offset-2 col-sm-12 text-center" id="order-div-main">
-                            <h2 class="wow fadeInRight on-hide" id="check-and-go-order"><?= get_field('invite_order') ?></h2>
-                            <h2 class="wow fadeInDown on-hide" id="lets-go-order"><?= get_field('lets_go_order') ?></h2>
+                            <h2 class="wow fadeInRight on-hide" id="check-and-go-order">Проверьте Ваш адрес и оставьте заявку</h2>
+                            <h2 class="wow fadeInDown on-hide" id="lets-go-order">Все готово - осталось только нажать!</h2>
                             <div class="signup-header wow fadeInLeft" id="order-div-form">
-                                <h3 class="form-title text-center" id="street_text"><?= get_field('street_input') ?></h3>
-								<h3 class="form-title text-center on-hide" id="house_text"><?= get_field('house_input') ?></h3>
-								<h3 class="form-title text-center on-hide" id="family_text"><?= get_field('family_input') ?></h3>
-								<h3 class="form-title text-center on-hide" id="order_text"><?= get_field('go_order_advice') ?></h3>
+                                <h3 class="form-title text-center" id="street_text">Найдите Вашу улицу</h3>
+								<h3 class="form-title text-center on-hide" id="house_text">Найдите Ваш дом</h3>
+								<h3 class="form-title text-center on-hide" id="family_text">Заполните Ваше имя и контакты для связи</h3>
+								<h3 class="form-title text-center on-hide" id="order_text">Отправьте заявку на подключение</h3>
 				
                                     <form class="form-header" role="form" method="POST" action="" id="order_send_form">
                                         <input type="hidden" name="u" value="503bdae81fde8612ff4944435">
@@ -323,7 +327,9 @@
                                     </form>
                             </div>
 
-                            <p class="download-text wow fadeInRight"><?= get_field('avilible_districts') ?></p>
+                            <p class="download-text wow fadeInRight">Мы подключаем Интернет и ТВ в Выборгском, Приморском, Калининском, Красногвардейском,<br>
+                                                                    Петроградском, Василеостровском, Центральном, Невском, Адмиралтейском, Фрунзкенском, Московском,<br>
+                                                                    Кировском и Красносельском районах.</p>
 
                             
                         </div>	
@@ -338,7 +344,7 @@
                 <div class="text-center">
 
                     <!-- /.pricing title -->
-                    <h2 class="wow fadeInLeft"><?= get_field('advanced_feature_title') ?></h2>
+                    <h2 class="wow fadeInLeft">Дополнительные услуги</h2>
                     <div class="title-line wow fadeInRight"></div>
                 </div>
                 <div class="row package-option">
@@ -352,7 +358,7 @@
                                 <i class="pe-7s-signal pe-5x"></i>
 
                                 <!-- /.package name -->
-                                <h3><?= get_field('advanced_feature_1') ?></h3>
+                                <h3>Wi-Fi "Под ключ"</h3>
                             </div>
 
                             <!-- /.price -->
@@ -371,7 +377,10 @@
                                 <li><strike>Webmail Support</strike></li>				  
                             </ul> -->
 							<div class="text-block text-center">
-								<h3><?= get_field('describe_advanced_feature_1') ?><h3>
+								<h3>Организация домашней<br>
+								    беспроводной сети<br>
+								    + Wi-Fi роутер<br>
+								    всего 1500 руб<h3>
 							</div>
 
                             <!-- /.package button -->
@@ -390,7 +399,7 @@
                                 <i class="pe-7s-joy pe-5x"></i>
 
                                 <!-- /.package name -->
-                                <h3><?= get_field('advanced_feature_2') ?></h3>
+                                <h3>Цифровое телевидение</h3>
                             </div>
 
                             <!-- /.price -->
@@ -409,7 +418,9 @@
                                 			  
                             </ul> -->
 							<div class="text-block text-center">
-								<h3><?= get_field('describe_advanced_feature_2') ?><h3>
+								<h3>101 ТВ канал<br>
+								    в HD качестве<br>
+								    всего за 210 руб/месяц<h3>
 							</div>
 							
                             <!-- /.package button -->
@@ -428,7 +439,7 @@
                                 <i class="pe-7s-disk pe-5x"></i>
 
                                 <!-- /.package name -->
-                                <h3><?= get_field('advanced_feature_3') ?></h3>
+                                <h3>Подписка на программное обеспечение</h3>
                             </div>
 
                             <!-- /.price -->
